@@ -1,0 +1,26 @@
+{
+  "name": "iris-portfolio",
+  "version": "1.0.0",
+  "description": "portfolio by iris van ollefen",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IrisvanOllefen/iris-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IrisvanOllefen/iris-portfolio/issues"
+  },
+  "homepage": "https://github.com/IrisvanOllefen/iris-portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.1.1",
+    "vite": "^2.1.5"
+  }
+}
