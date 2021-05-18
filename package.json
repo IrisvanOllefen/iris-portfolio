@@ -4,7 +4,8 @@
   "description": "portfolio by iris van ollefen",
   "main": "index.js",
   "scripts": {
-    "dev": "vite"
+    "dev": "vite",
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
@@ -21,7 +22,7 @@
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.9",
     "tailwindcss": "^2.1.1",
-    "vite": "^2.1.5"
+    "vite": "^2.3.3"
   },
   "dependencies": {
     "react": "^17.0.2",
