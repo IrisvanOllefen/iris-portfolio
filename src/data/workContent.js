@@ -28,7 +28,7 @@ export default [
         productImg: "/images/products/freshfooter.jpg",
         productUrl: "https://www.freshcotton.com/nl/",
         urlName: "Freshcotton website",
-        focusPointOne: "I followed a UX internship at Freshcotton February to April in 2020. I did numerous things, but the only thing they implemented was the footer on the website.",
+        focusPointOne: "I followed a UX internship at Freshcotton February to April in 2020. I did numerous things, one of the things they implemented was the footer on their website.",
         focusPointTwo: "There were some problems with the footer, since it was not always clear for the users where they could find information.",
         focusPointThree: "",
     },
