@@ -1,43 +1,46 @@
 export default [
 {
     skillName: "HTML",
-    rating: "4",
+    rating: "10",
 },
 {
     skillName: "CSS",
-    rating: "4",
+    rating: "9",
 },
 {
     skillName: "JavaScript",
-    rating: "3",
+    rating: "7",
 },
 {
     skillName: "TailwindCSS",
-    rating: "2",
+    rating: "5",
+},
+{
+    skillName: "Illustrator",
+    rating: "6",
+},
+{
+    skillName: "Premiere Pro",
+    rating: "5",
+},
+{
+    skillName: "Framer",
+    rating: "7",
 },
 {
     skillName: "Node",
     rating: "4",
 },
 {
-    skillName: "HTML",
-    rating: "4",
+    skillName: "React",
+    rating: "3",
 },
 {
-    skillName: "HTML",
-    rating: "4",
+    skillName: "Design Research",
+    rating: "9",
 },
 {
-    skillName: "HTML",
-    rating: "4",
+    skillName: "User Research Methodologies",
+    rating: "8",
 },
 ];
-
-// things I've worked with often
-// html, css, javascript, illustrator, premiere pro, framer,
-
-// things I know but am not a pro in
-// node, tailwind
-
-// things I know but would have to learn and research
-// express, vite, react
