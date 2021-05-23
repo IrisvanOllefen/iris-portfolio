@@ -2,6 +2,7 @@ import React from "react";
 
 import workContent from "./data/workContent";
 import skillsContent from "./data/skillsContent";
+import resumeItems from "./data/resumeItems";
 
 export default function App() {
     return (
@@ -15,13 +16,16 @@ export default function App() {
           <a href="https://github.com/IrisvanOllefen" className="p-3 m-1">
             <img src="images/github.svg" alt=""
           /></a>
+          <a href="https://www.linkedin.com/in/iris-van-ollefen-38346417b/" className="p-3 m-1">
+            <img src="images/linkedin.svg" alt=""
+          /></a>
         </div>
       </div>
       <section className="m-4 my-28">
       <h1 className="text-5xl font-medium py-2">Hi. I am Iris.</h1>
       <h2 className="text-4xl py-2">Frontend Developer & UX Designer</h2>
       <div className="mt-2 mb-11">
-        <a href="#" className="text-lg text-purple-400 font-semibold">
+        <a href="#about-me" className="text-lg text-purple-400 font-semibold hover:underline active:text-purple-500">
           Learn more about me</a>
       </div>
     </section>
@@ -34,7 +38,7 @@ export default function App() {
             </h4>
             <h4 className="text-center text-base">{content.productType}</h4>
             <img src={content.productImg} alt="Picture of Product" className="py-4 w-full md:w-1/2" />
-            <a href={content.productUrl} className="font-semibold underline">{content.urlName}</a>
+            <a href={content.productUrl} className="font-semibold underline ">{content.urlName}</a>
             <h5 className="pt-3 font-semibold">Focus Points</h5>
             <ul className="pt-1">
               <li className="pt-1 pb-1">{content.focusPointOne}</li>
@@ -45,7 +49,7 @@ export default function App() {
         ))}
 
     <div className="px-2 py-5 mx-4 my-6">  
-      <h3 className="text-2xl font-semibold text-left pt-4">About me</h3>
+      <h3 id="about-me" className="text-2xl font-semibold text-left pt-4">About me</h3>
             <p className="pt-4"> I started studying <strong>Communication and Multimedia Design</strong> at the University of Applied Science in Amsterdam in the fall of 2018 but my story started before that. I've always been known as a very creative person and also took coding classes in high school. Nobody was surprised that this was the type of higher education I decided to follow. 
             </p>
             <p className="pt-4">My interest first was more towards <strong>graphic design</strong>, but soon I discovered how interesting <strong>user experience designing</strong> was. When the coding related classes started, I really started enjoying that too. In my third year of CMD I followed a half semester of coding classes and learned more parts of the full stack development. I know some things about the back end, and find it very interesting, but I know my power will be in front end development for now. I wish to learn more.  </p>
@@ -57,7 +61,7 @@ export default function App() {
           <div key={content.skillName} className="my-12">
             <p>{content.skillName}</p>
             <div className="flex bg-indigo-200 border w-full h-6">
-  <div className={`bg-indigo-700 inline-block w-${content.rating}/12`}></div>
+  <div className={`bg-indigo-700 inline-block w-${content.rating}/12 z-10`}></div>
 </div>        
           </div>
         ))}
@@ -71,7 +75,18 @@ export default function App() {
           </ul>
             
         <h3 className="text-2xl font-semibold text-left pt-4">Resumé</h3>
+
+        {resumeItems.map((content) => (
+          <div key={content.itemName} className="pt-4">
+            <p className="font-semibold text-xl">{content.itemName}</p>
+            <p className="text-lg">{content.companyName}</p>
+            <p className="italic">{content.itemDescription}</p>
+            <p>{content.yearsActive}</p>
+          </div>
+        ))}
+
         <h3 className="text-2xl font-semibold text-left pt-4">Contact</h3>
+        <h4> If you want to get in touch, please send me an email:  </h4>
     </div>
 
     <div className="flex flex-row justify-between h-32 p-2 bg-black">
@@ -82,6 +97,10 @@ export default function App() {
           /></a>
           <a href="https://github.com/IrisvanOllefen" className="p-3 m-1">
             <img src="images/github-white.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/in/iris-van-ollefen-38346417b/" className="p-3 m-1">
+            <img src="images/linkedin-white.svg" alt=""
+            
           /></a>
         </div>
     </div>

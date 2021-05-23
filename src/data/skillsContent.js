@@ -43,4 +43,9 @@ export default [
     skillName: "User Research Methodologies",
     rating: "8",
 },
+{
+    skillName: "Wordpress / CMS",
+    rating: "2",
+},
+
 ];
