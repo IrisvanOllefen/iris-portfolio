@@ -20,7 +20,7 @@
   "homepage": "https://github.com/IrisvanOllefen/iris-portfolio#readme",
   "devDependencies": {
     "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.9",
+    "postcss": "^8.3.0",
     "tailwindcss": "^2.1.1",
     "vite": "^2.3.3"
   },
