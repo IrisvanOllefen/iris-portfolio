@@ -17,15 +17,11 @@ export default [
 },
 {
     skillName: "Illustrator",
-    rating: "6",
-},
-{
-    skillName: "Premiere Pro",
-    rating: "5",
+    rating: "7",
 },
 {
     skillName: "Framer",
-    rating: "7",
+    rating: "8",
 },
 {
     skillName: "Node",
@@ -42,10 +38,6 @@ export default [
 {
     skillName: "User Research Methodologies",
     rating: "8",
-},
-{
-    skillName: "Wordpress / CMS",
-    rating: "2",
 },
 
 ];
