@@ -58,7 +58,7 @@ export default [
         title: "This portfolio",
         subTitle: "Used to work on my skills",
         productType: "Website from scratch",
-        productImg: "",
+        productImg: "/images/products/portfolio.jpg",
         productUrl: "https://github.com/IrisvanOllefen/iris-portfolio",
         urlName: "Repository",
         focusPointOne: "This portfolio itself was also a learning proces for me. It was the first time I worked with TailwindCSS, I also got time to work on creating React components. I started building this using Vite, which I also never had used before.",
