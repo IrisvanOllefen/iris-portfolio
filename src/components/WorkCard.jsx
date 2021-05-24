@@ -2,7 +2,7 @@ import React from "react";
 
 export function WorkCard({ content }) {
   return (
-    <div>
+    <div className="bg-purple-200 px-5 py-5 mx-4 my-6 rounded-xl shadow-xl">
       <h3 className="text-2xl font-semibold text-center">{content.title}</h3>
       <h4 className="text-lg font-medium text-center">{content.subTitle}</h4>
       <h4 className="text-center text-base">{content.productType}</h4>

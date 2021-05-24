@@ -26,10 +26,7 @@ export default function App() {
 
         <div className="lg:grid lg:grid-cols-2 2xl:grid-cols-3">
           {workContent.map((content) => (
-            <div
-              key={content.title}
-              className="bg-purple-200 px-5 py-5 mx-4 my-6 rounded-xl shadow-xl"
-            >
+            <div key={content.title}>
               <WorkCard content={content}></WorkCard>
             </div>
           ))}

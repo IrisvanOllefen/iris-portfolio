@@ -7,7 +7,21 @@ module.exports = {
   },
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        move: "move 2s ease-out"
+      },
+      keyframes: {
+        move: {
+        "0%": {
+          width: "0px"
+        },
+        "100%": {
+          width: "full"
+        },
+      },
+      },
+  },
   },
   variants: {
     extend: {
